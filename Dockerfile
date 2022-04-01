@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y \
     python3.7-dev \
     python3.7-distutils \
     default-libmysqlclient-dev \
- 	build-essential \
+    build-essential \
     swig \
     tesseract-ocr \
     wget && \
