@@ -1,0 +1,7 @@
+fire
+mysqlclient
+pandas
+numba
+cffi
+farm-haystack==1.3.0
+git+https://github.com/AI-Ahmed/seqtolang.git
