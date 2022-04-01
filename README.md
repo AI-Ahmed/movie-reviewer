@@ -42,9 +42,14 @@
 
 Since it is a movie sentiment analysis, we know that the emotions of watching movies can affect the review of the clients. Therefore, it will be much more efficient to use a text classifier that is based on emotion or trained on emotional text.
 
-<p align="center"><img width="500" src=https://user-images.githubusercontent.com/72295771/161221943-f58e937c-0882-4ee0-aa28-97409ed6427b.png></p>
+<p align="center"><img width="500" src='https://user-images.githubusercontent.com/72295771/161221943-f58e937c-0882-4ee0-aa28-97409ed6427b.png'></p>
 
 <p align="center">Snippet of the output process if using <b>JSON</b> format</p>
+
+
+<p align="center"><img width="500" src='https://user-images.githubusercontent.com/72295771/161223708-586a9562-1365-4aa4-86eb-5dc7ad0fe233.png'></p>
+
+<p align="center">Snippet of the output</p>
 
 ---
 
