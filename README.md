@@ -76,6 +76,8 @@ docker build -ti @NameOfImage
 
 ### (C) Deploy on AWS EC2
 
+<p align="center"><b>Make sure to change the Environment variables according to your AWS RDS Variables. To know more, visit <a href='https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-rds.html'>Adding an Amazon RDS DB instance to your Python application environment</a></b></p>
+
 - Follow up step No.2 with this article.
 - [Containerizing Huggingface Transformers for GPU inference with Docker and FastAPI on AWS](https://towardsdatascience.com/containerizing-huggingface-transformers-for-gpu-inference-with-docker-and-fastapi-on-aws-d4a83edede2f)
 
