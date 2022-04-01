@@ -65,13 +65,13 @@ Since it is a movie sentiment analysis, we know that the emotions of watching mo
 
 ```bash
 # Build our docker image
-docker build -t @NameOfImage @location
+docker build -ti @NameOfImage
 ```
 - Run the Docker and insert `args`
 
 ```bash
  # Run interactive mode
- docker run -ti  @NameOfImage --filename <path/to/file.json>
+ docker run --rm  @NameOfImage --filename <path/to/file.json>
 ```
 
 ### (C) Deploy on AWS EC2
