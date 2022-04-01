@@ -53,5 +53,32 @@ Since it is a movie sentiment analysis, we know that the emotions of watching mo
 
 ---
 
-<h1 align="center">Hope you liked it!</h1>
+## Coding
 
+### (A) Experimentation
+
+- You can use the notebook using [Google Colab](https://github.com/AI-Ahmed/movie-reviewer/blob/main/Movie_Reviewer_Notebook.ipynb)
+
+### (B) Development 
+
+- All you need to do is to `Build` Docker
+
+```bash
+# Build our docker image
+docker build -t @NameOfImage @location
+```
+- Run the Docker and insert `args`
+
+```bash
+ # Run interactive mode
+ docker run -ti  @NameOfImage --filename <filepath>
+```
+
+### (C) Deploy on AWS EC2
+
+- Follow up step No.2 with this article.
+- [Containerizing Huggingface Transformers for GPU inference with Docker and FastAPI on AWS](https://towardsdatascience.com/containerizing-huggingface-transformers-for-gpu-inference-with-docker-and-fastapi-on-aws-d4a83edede2f)
+
+---
+
+<h1 align="center">Hope you liked it!</h1>
