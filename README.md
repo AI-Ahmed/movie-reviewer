@@ -74,6 +74,10 @@ docker build -ti @NameOfImage
  docker run -it --rm -v <path/to/file.json>:/data/file.json @NameOfImage --filename /data/file.json
 ```
 
+<p align="center"><img width="500" src='https://user-images.githubusercontent.com/72295771/161361917-3afa0c45-c92a-491e-a68f-9e52ddfd28df.png'></p>
+
+<p align="center">Snippet of Running Docker</p>
+
 ### (C) Deploy on AWS EC2
 
 <p align="center"><b>Make sure to change the Environment variables according to your AWS RDS Variables. To know more, visit <a href='https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-rds.html'>Adding an Amazon RDS DB instance to your Python application environment</a></b></p>
