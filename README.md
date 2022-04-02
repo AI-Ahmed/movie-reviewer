@@ -76,7 +76,7 @@ docker build -ti @NameOfImage
 
 <p align="center"><img width="500" src='https://user-images.githubusercontent.com/72295771/161361917-3afa0c45-c92a-491e-a68f-9e52ddfd28df.png'></p>
 
-<p align="center">Snippet of Running Docker</p>
+<p align="center">Snippet from Running Docker Pipeline On <b>CPU</b> which took <b>5mins27secs</b> to process [715 stochetic samples]</p>
 
 ### (C) Deploy on AWS EC2
 
