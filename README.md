@@ -71,7 +71,7 @@ docker build -ti @NameOfImage
 
 ```bash
  # Run interactive mode
- docker run --rm  @NameOfImage --filename <path/to/file.json>
+ docker run -it --rm -v <path/to/file.json>:/data/file.json @NameOfImage --filename /data/file.json
 ```
 
 ### (C) Deploy on AWS EC2
